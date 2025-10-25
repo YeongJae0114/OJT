@@ -12,6 +12,8 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.auth0:java-jwt:4.5.0'
+    implementation 'com.nimbusds:nimbus-jose-jwt:9.40'
 }
 
 test {
