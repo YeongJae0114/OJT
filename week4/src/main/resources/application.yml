@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: week4
+
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    hikari:
+      auto-commit: false
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    org.mybatis: DEBUG # MyBatis SQL ?? ??
+    org.mybatis.spring: DEBUG  # MyBatis-Spring ?? ?? (SqlSession, ???? ??? ?)
+    org.springframework.jdbc.core: DEBUG # JDBC SQL ?? ?? (PreparedStatement ?)
+    org.springframework.jdbc.datasource: DEBUG # ??? ?? ?? (??/??)
+    org.springframework.jdbc.datasource.DataSourceTransactionManager: DEBUG # ???? ??? ?? ?? (??/??/??)
+    org.springframework.transaction.interceptor: TRACE # @Transactional ?? ?? ?? (AOP ???? ??)
