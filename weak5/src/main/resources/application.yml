@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: weak5
+
+  aop:
+    proxy-target-class: false
+
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:weak5db;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true       # ? H2 ?? ??? (http://localhost:8080/h2-console)
+      path: /h2-console
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
