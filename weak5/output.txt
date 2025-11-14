@@ -10,3 +10,15 @@ Time: 2025-11-10T16:17:34.280555300
 Method: SampleService.save(..)
 Result: SampleService 완료
 
+Time: 2025-11-14T08:54:59.197233500
+Method: SampleService.save(..)
+Result: SampleService 완료
+
+Time: 2025-11-14T08:55:08.908448500
+Method: SampleService.save(..)
+Result: SampleService 완료
+
+Time: 2025-11-14T09:08:00.371531600
+Method: SampleService.save(..)
+Result: SampleService 완료
+

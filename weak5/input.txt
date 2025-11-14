@@ -10,3 +10,15 @@ Time: 2025-11-10T16:17:34.280555300
 Method: SampleService.save(..)
 Args: [RequestDto(name=null, age=0, city=서울)]
 
+Time: 2025-11-14T08:54:59.195235400
+Method: SampleService.save(..)
+Args: [RequestDto(name=null, age=26, city=null)]
+
+Time: 2025-11-14T08:55:08.907448100
+Method: SampleService.save(..)
+Args: [RequestDto(name=null, age=0, city=서울)]
+
+Time: 2025-11-14T09:08:00.369538500
+Method: SampleService.save(..)
+Args: [RequestDto(name=맥스, age=0, city=null)]
+
